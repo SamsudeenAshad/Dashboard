@@ -64,19 +64,19 @@
     var myChart1 = new Chart(ctx1, {
         type: "bar",
         data: {
-            labels: ["2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+            labels: ["A016", "B017", "B018", "M019", "N020", "Q021", "P022"],
             datasets: [{
-                    label: "USA",
+                    label: "FIV",
                     data: [15, 30, 55, 65, 60, 80, 95],
                     backgroundColor: "rgba(0, 156, 255, .7)"
                 },
                 {
-                    label: "UK",
+                    label: "COH",
                     data: [8, 35, 40, 60, 70, 55, 75],
                     backgroundColor: "rgba(0, 156, 255, .5)"
                 },
                 {
-                    label: "AU",
+                    label: "WOM",
                     data: [12, 25, 45, 55, 65, 70, 60],
                     backgroundColor: "rgba(0, 156, 255, .3)"
                 }
@@ -93,16 +93,16 @@
     var myChart2 = new Chart(ctx2, {
         type: "line",
         data: {
-            labels: ["2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+            labels: ['15th', '16th', '17th', '18th', '19th', '20th', '21st', '22nd', '23rd', '24th', '25th'],
             datasets: [{
-                    label: "Salse",
-                    data: [15, 30, 55, 45, 70, 65, 85],
+                    label: "Appointments",
+                    data: [1, 3, 5, 4, 7, 6, 8,5, 1, 4, 2, 3, 1],
                     backgroundColor: "rgba(0, 156, 255, .5)",
                     fill: true
                 },
                 {
-                    label: "Revenue",
-                    data: [99, 135, 170, 130, 190, 180, 270],
+                    label: "patients",
+                    data: [19, 13, 17, 13, 19, 18, 27, 15, 11, 14, 31, 41],
                     backgroundColor: "rgba(0, 156, 255, .3)",
                     fill: true
                 }
@@ -112,6 +112,8 @@
             responsive: true
         }
     });
+
+   
     
 
 
@@ -120,12 +122,12 @@
     var myChart3 = new Chart(ctx3, {
         type: "line",
         data: {
-            labels: [50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150],
+            labels: ['15th', '16th', '17th', '18th', '19th', '20th', '21st', '22nd', '23rd', '24th', '25th'],
             datasets: [{
                 label: "Salse",
                 fill: false,
                 backgroundColor: "rgba(0, 156, 255, .3)",
-                data: [7, 8, 8, 9, 9, 9, 10, 11, 14, 14, 15]
+                data: [1,7, 6, 8, 11, 9, 5, 10, 11, 14, 10, 15]
             }]
         },
         options: {
