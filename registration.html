@@ -186,7 +186,7 @@
                 <div class="row g-4">
                     <div class="">
                         <div class="bg-light rounded h-100 p-4">
-                            <h6 class="mb-4">Registration Form</h6>
+                            <h6 class="mb-4">Medical Registration Form</h6>
                             <form>
                                 <div class="mb-3">
                                     <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -199,37 +199,68 @@
                                     <label for="fullname" class="form-label">Full Name</label>
                                     <input type="text" class="form-control" id="fullname">
                                 </div>
+                                <div class="mb-3">
+                                    <label for="faculty" class="form-label">Faculty</label>
+                                    <input type="text" class="form-control" id="faculty">
+                                </div>
+                                <div class="form-floating">
+                                    <legend class="col-form-label col-sm-2 pt-0">Personal Address</legend>
+                                    <textarea class="form-control" placeholder="Personal Address" id="address" style="height: 100px;"></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="longtermdiseases" class="form-label">Any Long Term Diseases</label>
+                                    <input type="text" class="form-control" id="longtermdiseases">
+                                </div>
                                 <fieldset class="row mb-3">
-                                    <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                                    <legend class="col-form-label col-sm-2 pt-0">On any medication</legend>
                                     <div class="col-sm-10">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="gridRadios"
-                                                id="gridRadios1" value="option1" checked>
-                                            <label class="form-check-label" for="gridRadios1">
-                                                First radio
+                                            <input class="form-check-input" type="radio" name="anymedication"
+                                                id="anymedication1" value="option1" checked>
+                                            <label class="form-check-label" for="anymedication1">
+                                                Yes
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="gridRadios"
-                                                id="gridRadios2" value="option2">
-                                            <label class="form-check-label" for="gridRadios2">
-                                                Second radio
+                                            <input class="form-check-input" type="radio" name="any medication"
+                                                id="anymedication2" value="option2">
+                                            <label class="form-check-label" for="anymedication2">
+                                                No
                                             </label>
                                         </div>
                                     </div>
                                 </fieldset>
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a comment here"
-                                        id="floatingTextarea" style="height: 150px;"></textarea>
-                                    <label for="floatingTextarea">Comments</label>
-                                </div>
+                                <fieldset class="row mb-3">
+                                    <legend class="col-form-label col-sm-2 pt-0">Fully vaccinated for COVID-19</legend>
+                                    <div class="col-sm-10">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="vaccinated"
+                                                id="vaccinated1" value="option1" checked>
+                                            <label class="form-check-label" for="vaccinated1">
+                                                Yes
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="vaccinated"
+                                                id="vaccinated2" value="option2">
+                                            <label class="form-check-label" for="vaccinated2">
+                                                No
+                                            </label>
+                                        </div>
+                                    </div>
+                                </fieldset>
                                 <div class="mb-3">
-                                    <label for="formFile" class="form-label">Default file input example</label>
-                                    <input class="form-control" type="file" id="formFile">
+                                    <label for="allergies" class="form-label">Allergies to any medication / Food </label>
+                                    <input type="text" class="form-control" id="allergies">
+                                </div>
+                               
+                                <div class="mb-3">
+                                    <label for="image" class="form-label">Upload Your Image</label>
+                                    <input class="form-control" type="file" id="image">
                                 </div>
                                 <div class="mb-3 form-check">
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    <label class="form-check-label" for="exampleCheck1">I confirm that the above details are correct.</label>
                                 </div>
                                 <button type="submit" class="btn btn-primary">Submit</button>
                             </form>
